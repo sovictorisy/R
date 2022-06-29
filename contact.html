@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mon Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Nous Contacter</h1>
+      <nav>
+        <a href="index.html" title="Acceuil">Acceuil</a>
+        <a href="menu.html" title="Voir le menu">Menu</a>
+        <a href="contact.html" title="Nous Contacter">Contact</a>
+      </nav>
+      <img
+        src="img/jason-leung-poi7delfiva-unspla.jpg"
+        width="1260"
+        height="310"
+      />
+    </header>
+    <section>
+      <h2>Ou nous trouver ?</h2>
+      <p>
+        123 rue de la démonstration<br />
+        75000 Paris<br />
+        France
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10498.867978996192!2d2.3768525669718095!3d48.863606774839624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d8c3243e5f1%3A0x6f1e88de9b8bcb1e!2sP%C3%A8re-Lachaise%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1656068551536!5m2!1sfr!2sfr"
+        alt="Photo du restaurant le Pouletoo"
+        width="1200"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <h2>Nous envoyer un email</h2>
+      <form action="contact.html">
+        <div>
+          <label for="email">Votre adresse mail</label>
+          <input
+            type="email"
+            required
+            id="email"
+            name="email"
+            placeholder="votre@email.fr"
+          />
+        </div>
+        <div>
+          <label for="firstname">Votre prénom</label>
+          <input type="text" required id="firstname" name="firstname" />
+        </div>
+        <div>
+          <label for="message">Votre message<sup>*</sup></label>
+          <textarea required id="message" name="message"></textarea>
+        </div>
+        <div>
+          <label
+            ><input type="checkbox" name="cgu" checked />J'accecpte les
+            conditions d'utilisation</label
+          >
+        </div>
+        <button type="submit">Envoyer votre email</button>
+      </form>
+    </section>
+    <footer></footer>
+  </body>
+</html>
